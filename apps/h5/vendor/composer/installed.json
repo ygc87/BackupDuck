@@ -1,0 +1,111 @@
+[
+    {
+        "name": "medz/thinksns-installer-plugin",
+        "version": "v1.0.1",
+        "version_normalized": "1.0.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/medz/thinksns-installer-plugin.git",
+            "reference": "0151c70afaf97b431feff59fc167e78e786b030b"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/medz/thinksns-installer-plugin/zipball/0151c70afaf97b431feff59fc167e78e786b030b",
+            "reference": "0151c70afaf97b431feff59fc167e78e786b030b",
+            "shasum": ""
+        },
+        "require": {
+            "composer-plugin-api": "^1.0",
+            "php": ">=5.3"
+        },
+        "time": "2016-04-02 09:30:58",
+        "type": "composer-plugin",
+        "extra": {
+            "class": "Medz\\Component\\Installer\\ThinkSNS\\Composer\\InstallerPlugin",
+            "branch-alias": {
+                "dev-master": "1.0-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Medz\\Component\\Installer\\ThinkSNS\\Composer\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Seven Du",
+                "email": "lovevipdsw@outlook.com",
+                "homepage": "http://medz.cn",
+                "role": "Developer"
+            }
+        ],
+        "description": "The Composer plugin is ThinkSNS-4 application installed soft.",
+        "keywords": [
+            "medz",
+            "thinksns"
+        ]
+    },
+    {
+        "name": "medz/emoji-format",
+        "version": "v1.0.2",
+        "version_normalized": "1.0.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/medz/emoji-format.git",
+            "reference": "4cabe1fdda2695af355c167e615709751c129325"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/medz/emoji-format/zipball/4cabe1fdda2695af355c167e615709751c129325",
+            "reference": "4cabe1fdda2695af355c167e615709751c129325",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "~4.8|~5.2"
+        },
+        "time": "2016-05-24 15:03:45",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.0-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "classmap": [
+                "EmojiFormat.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Seven Du",
+                "email": "lovevipdsw@outlook.com",
+                "homepage": "http://medz.cn"
+            }
+        ],
+        "description": "The emoji-format[EmojiFormat] library is format emoji code Component.",
+        "homepage": "http://medz.cn",
+        "keywords": [
+            "emoji",
+            "emoji-format",
+            "emojiformat",
+            "format",
+            "format-emoji",
+            "formatemoji",
+            "medz",
+            "php"
+        ]
+    }
+]

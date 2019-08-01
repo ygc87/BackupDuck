@@ -1,0 +1,34 @@
+{
+    "name": "medz/thinksns-installer-plugin",
+    "description": "The Composer plugin is ThinkSNS-4 application installed soft.",
+    "keywords": ["medz", "thinksns"],
+    "type": "composer-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Seven Du",
+            "email": "lovevipdsw@outlook.com",
+            "homepage": "http://medz.cn",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Medz\\Component\\Installer\\ThinkSNS\\Composer\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=5.3",
+        "composer-plugin-api": "^1.0"
+    },
+    "extra": {
+        "class": "Medz\\Component\\Installer\\ThinkSNS\\Composer\\InstallerPlugin",
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    },
+    "support": {
+        "forum": "http://demo.thinksns.com",
+        "source": "https://github.com/medz/thinksns-installer-plugin.git"
+    }
+}

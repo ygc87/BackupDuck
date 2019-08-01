@@ -1,0 +1,14 @@
+1、安装扩展包
+yum install epel-release
+vi /etc/yum.repos.d/epel.repo
+
+
+2、升级并安装
+yum update
+yum install subversion
+yum install gcc libevent libevent-devel subversion
+yum install memcached memcached-devel 
+yum install libmcrypt libmcrypt-devel mcrypt mhash
+yum install php php-devel php-process php-pear php-mcrypt php-cli php-fpm
+yum install httpd-devel
+yum install mariadb mariadb-devel mariadb-server phpMyAdmin
